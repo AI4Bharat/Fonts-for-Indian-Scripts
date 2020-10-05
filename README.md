@@ -1,7 +1,10 @@
 # Fonts Generation for Indic Scripts
 
 Font style transfer for Indian scripts using GANs.  
-Currently, supports only Devanagari.
+Currently supports only Devanagari.
+
+For full details about the project, go to:  
+https://fonts.ai4bharat.org
 
 # Code Setup
 
@@ -29,6 +32,6 @@ To run: `streamlit run font_GAN_ui.py`
 **Running StreamLit server**
 - Type `byobu` to open a session
 - `cd` into the project directory
-- Run UI on port 80: `sudo env PATH=$PATH streamlit run font_GAN_ui.py`
+- Run UI on port 80: `sudo env PATH=$PATH streamlit run font_GAN_ui.py --server.port 80`
 
 Now you can access the UI at: http://<VM_IP>/
