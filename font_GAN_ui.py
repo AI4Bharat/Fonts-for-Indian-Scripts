@@ -1,8 +1,8 @@
 import sys
+import os
 sys.path.append(os.getcwd() + "/ProcessFont/Model")
 import ProcessFont.Model.inference as model
 import io
-import os
 import datetime
 import numpy as np
 import matplotlib.pyplot as plt
