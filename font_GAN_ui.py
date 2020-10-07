@@ -1,5 +1,5 @@
 import sys
-sys.path.append(r"/mnt/c/Users/Ishvinder/Desktop/FontGANui/ProcessFont/Model")
+sys.path.append(os.getcwd() + "/ProcessFont/Model")
 import ProcessFont.Model.inference as model
 import io
 import os
