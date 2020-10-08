@@ -1,8 +1,8 @@
-**Our complete dataset can be downloaded [here](https://drive.google.com/file/d/1yOgpTvak3-o2EuCrSL3CyWcffeShwHDD/view?usp=sharing)** 
+**Our complete dataset can be downloaded [here](https://drive.google.com/file/d/1yOgpTvak3-o2EuCrSL3CyWcffeShwHDD/view?usp=sharing)**.
 
 *Note: This dataset consists of 800 Images (sized: 320x320) per font style. The directories are structured in accordance to Input, Testing, and Training Data.*
 
-*In order to create a DataLoader, one may refer [Dataloader.py](https://github.com/AI4Bharat/Fonts-for-Indian-Scripts/blob/main/ProcessFont/Model/Dataloader.py)*
+*In order to create a DataLoader, one may refer [Dataloader.py](https://github.com/AI4Bharat/Fonts-for-Indian-Scripts/blob/main/ProcessFont/Model/Dataloader.py)*.
 
 
 We have used 800 Images per style due to compute limitations. We believe more training data would result in better results for sure.
