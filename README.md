@@ -6,23 +6,13 @@ Currently supports only Devanagari.
 For full details about the project, go to:  
 https://fonts.ai4bharat.org
 
-# Code Setup
-
-## Training
-
-TODO
-
-## Inference
-
-TODO
-
-## Web UI
+## WebDemo UI
 
 Ensure you have installed StreamLit by `pip install streamlit`
 
 To run: `streamlit run font_GAN_ui.py`
 
-## Hosting UI on GCP
+### Hosting UI on GCP
 
 **Pre-requisites**
 - Create a GCP VM (Compute Engine) with HTTP/HTTPS exposed
