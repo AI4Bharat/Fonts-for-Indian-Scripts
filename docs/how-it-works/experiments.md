@@ -1,6 +1,7 @@
 **Comparisons**
 
-[Final Results (With SSIM Scores)](https://drive.google.com/file/d/14u_GNi4MFkm7-X-Y6XmZWVPRl1ev5UYW/view?usp=sharing)
+|[Final Results (With SSIM Scores)](https://drive.google.com/file/d/14u_GNi4MFkm7-X-Y6XmZWVPRl1ev5UYW/view?usp=sharing)|
+|:-:|
 
 
 <table>
