@@ -36,7 +36,7 @@ class ImageDataset(Dataset):
         inp_indx = label_name.split("_")[2].split(".")[0]
         
         label = Image.open(self.train_data_path + self.font_type[random_indx] + "Hindi/" + label_name).convert('L')
-        inp = Image.open('../input/final-hinidi-data/content/Devanagari_Data_800/Input/Hindi/0_img_%s.png'%(inp_indx)).convert('L')
+        inp = Image.open(os.getcwd() + '/hindi-data/content/Devanagari_Data_800/Input/Hindi/0_img_%s.png'%(inp_indx)).convert('L')
         
         rep_imgs = []
         
