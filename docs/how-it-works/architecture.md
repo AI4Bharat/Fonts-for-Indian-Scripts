@@ -6,11 +6,11 @@ Our architecture consists of different types of Encoder and Decoder Convolutiona
 
 Our Architecture
 --------------------
-1. Our architecture consists of 4 different parts :
-2. Style Encoder and Content Encoder Network
-3. Mixer Network
-4. Generator Network
-5. Critic Network
+Our architecture consists of 4 different parts :
+1. Style Encoder and Content Encoder Network
+2. Mixer Network
+3. Generator Network
+4. Critic Network
 
 * **Style Encoder and Content Encoder Network :** It consists of two different types of encoder although the overall architecture of these two encoders are the same. An Encoder is a Convolutional Neural Network used for downsampling the input images. This downsampling is achieved using several ResNet layers while learning and mapping  the representation of input vector from n-dimensional vector space to m-dimensional vector space. The two encoder are style encoder and content encoder, Style encoder takes the 26 input images of 26,320,320 whereas Content Encoder takes a single input image of hindi glyph having 320,320 image dimensions to which that stylisation has to be done. The output dimensions of both the encoders are the same i,e; 1,10,10.
 
