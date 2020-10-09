@@ -2,7 +2,7 @@ Model Architecture
 ==================
 
 Our architecture consists of different types of Encoder and Decoder Convolutional Networks as shown below:
-![Image](/Images/arch.png)
+![Image](/docs/Images/arch.png)
 
 Our Architecture
 --------------------
