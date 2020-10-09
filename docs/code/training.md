@@ -1,1 +1,4 @@
-How to train?
+Training Process for Model
+==========================
+
+R<sup>m</sup>
