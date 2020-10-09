@@ -3,6 +3,7 @@
 * [How It Works?](how-it-works/index)
   * [Architecture](how-it-works/architecture)
   * [Other Experiments](how-it-works/experiments)
+  * [Limitations](how-it-works/limitations)
 
 * [Technical Details](code/index)
   * [Datasets](code/datasets)
