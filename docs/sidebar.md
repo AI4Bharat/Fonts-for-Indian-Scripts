@@ -10,6 +10,6 @@
   * [Pre-trained models](code/checkpoints)
   * [Inference](code/inference)
 
-* [Publications/Paper](publications)
+* [Reference Publications](references)
 
 * [About us](about)
