@@ -12,7 +12,7 @@ class ImageDataset(Dataset):
     
     def __init__(self, data_path, transform = None):
         self.train_data_path = data_path['data']
-        self.input = os.listdir('../input/final-hinidi-data/content/Devanagari_Data_800/Input/Hindi/')
+        self.input = os.listdir(os.getcwd() + '/hindi-data/content/Devanagari_Data_800/Input/Hindi/')
         self.non_italics_train_images = os.listdir(self.train_data_path + "Non_Italics/Hindi/")
         self.italics_train_images = os.listdir(self.train_data_path + "Italics/Hindi/")
         self.data = [self.non_italics_train_images, self.italics_train_images]
