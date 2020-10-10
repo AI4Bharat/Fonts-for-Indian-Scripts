@@ -1,1 +1,1 @@
-*Video Tutorial*
+*Video Tutorial coming soon.*
