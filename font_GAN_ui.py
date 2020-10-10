@@ -53,7 +53,7 @@ stl.title("Font GAN for Indian Scripts")
 
 
 def getInput():
-    choice = stl.radio("Select your Options", ("Upload your own font file", "Select from Our list"))
+    choice = stl.radio("Select your Options", ("Select from Our list", "Upload your own font file"))
 
 
     if choice == "Select from Our list":
