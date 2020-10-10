@@ -48,6 +48,7 @@ def PrintCharacters(font_name):
 
 setLayout()
 fig, ax = plt.subplots(1, 1, figsize=(10, 10))
+stl.set_option('deprecation.showPyplotGlobalUse', False)
 stl.title("Font GAN for Indian Scripts")
 
 
