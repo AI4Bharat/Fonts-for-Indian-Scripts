@@ -36,12 +36,10 @@ class FontUtil:
         self.maxCharDimension = max(map(lambda s: max(s), self.unicodeCharSizes))
         self.padding = 11
         self.gridSize = self.maxCharDimension + self.padding
-        print(self.unicodeCharSizes, "\t", self.maxCharDimension, "\t" , self.padding, "\t", self.gridSize)
 
     def GetWordList(self):
         with open(self.path + '/Words List/words_list.pickle', 'rb') as file:
             self.word_list = pickle.load(file)
-            print(len(self.word_list))
 
     def DrawEnglishChars(self, fig, ax, chr_list):
         count = 0
