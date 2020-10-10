@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 import ProcessFont.fonts as pf
 import streamlit as stl
 
+stl.set_option('deprecation.showPyplotGlobalUse', False)
 stl.set_option('deprecation.showfileUploaderEncoding', False)
 fontUtil = pf.FontUtil(model)
 
@@ -48,7 +49,6 @@ def PrintCharacters(font_name):
 
 setLayout()
 fig, ax = plt.subplots(1, 1, figsize=(10, 10))
-stl.set_option('deprecation.showPyplotGlobalUse', False)
 stl.title("Font GAN for Indian Scripts")
 
 
@@ -56,15 +56,15 @@ def getInput():
     choice = stl.radio("Select your Options", ("Upload your own font file", "Select from Our list"))
 
 
-    if choice == 'Upload your own font file':
+    if choice == "Select from Our list":
+        font_name = stl.selectbox("Select Your Font", GetAvailableFontList())
+        PrintCharacters("/All TTFs/Avail_Fonts/" + font_name)
+            
+    elif choice == 'Upload your own font file':
         ttf_file = stl.file_uploader("Upload Your Font File")
         if ttf_file:
             font_path = dump_file(ttf_file, '.ttf', 'uploaded_fonts/')
             PrintCharacters(font_path)
-            
-    elif choice == "Select from Our list":
-        font_name = stl.selectbox("Select Your Font", GetAvailableFontList())
-        PrintCharacters("/All TTFs/Avail_Fonts/" + font_name)
     
 getInput()
 inp = stl.text_input("Type Hindi Text Here")
