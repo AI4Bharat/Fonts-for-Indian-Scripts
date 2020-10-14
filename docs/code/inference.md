@@ -1,1 +1,0 @@
-*Video Tutorial coming soon.*
