@@ -9,7 +9,6 @@
   * [Datasets](code/datasets)
   * [Training](code/training)
   * [Pre-trained models](code/checkpoints)
-  * [Inference](code/inference)
 
 * [Reference Publications](references)
 
