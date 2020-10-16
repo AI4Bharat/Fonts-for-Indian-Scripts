@@ -62,7 +62,7 @@ def getInput():
             
     elif choice == 'Upload your own font file':
         ttf_file = stl.file_uploader("Upload Your Font File")
-        if ttf_file:
+        if ttf_file != None:
             font_path = dump_file(ttf_file, '.ttf', 'uploaded_fonts/')
             PrintCharacters(font_path)
     
