@@ -1,6 +1,5 @@
 # Fonts Generation for Indian Scripts
-
-<img src = "https://raw.githubusercontent.com/AI4Bharat/Fonts-for-Indian-Scripts/main/docs/Images/free-hindi-font-converter.jpg" width = 450>
+<img src = "https://raw.githubusercontent.com/AI4Bharat/Fonts-for-Indian-Scripts/main/docs/Images/free-hindi-font-converter.jpg" width = 500 align="middle">
 
 This is the first version of the project, limited to only devanagari script.
 
