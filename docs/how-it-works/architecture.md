@@ -2,7 +2,7 @@ Model Architecture
 ==================
 
 Our architecture consists of different types of Encoder and Decoder Convolutional Networks as shown below:
-![Image](https://github.com/AI4Bharat/Fonts-for-Indian-Scripts/blob/main/docs/Images/arch.png?raw=true)
+![Image](https://raw.githubusercontent.com/AI4Bharat/Fonts-for-Indian-Scripts/main/docs/Images/arch.png)
 
 Our Architecture
 --------------------
