@@ -1,21 +1,7 @@
-# Fonts Generation for Indic Scripts
+# Fonts Generation for Indian Scripts
 
-This is just a template for the project.  
-You need to edit all the files in it (including this README),  
-feel free to structure it however you want and  
-link it all in the `sidebar.md` file.
+This is the first version of the project, limited to only devanagari script.
 
-Finally, you can enable the GitHub pages for this project by choosing to render master branch's `docs/` folder.  
-(It may take sometime to get fully published)
+This project is hosted [here](http://104.154.132.131/).
 
-<hr/>
-
-# To run this locally
-
-- `cd docs/` and `python -m http.server`
-- The website will be available at: http://localhost:8000/
-
-# More resources
-
-- https://docsify.js.org
-- https://jhildenbiddle.github.io/docsify-themeable
+To view our work at AI4Bharat, please visit [ai4bharat.org](ai4bharat.org)
