@@ -1,4 +1,4 @@
-torch==1.6.0+cpu
+torch==1.6.0
 opencv_python==4.4.0.44
 numpy==1.19.2
 streamlit==0.67.1
