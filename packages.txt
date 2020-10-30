@@ -1,4 +1,3 @@
-update
 libgl1-mesa-glx
 libfreetype6-dev
 libharfbuzz-dev
