@@ -3,7 +3,7 @@
 Font style transfer for Indian scripts using GANs.  
 Currently supports only Devanagari.
 
-For project demo (unstable version): http://104.154.132.131/
+For project demo (unstable version): https://demo.fonts.ai4bharat.org
 
 For full details about the project, go to:  
 https://fonts.ai4bharat.org
