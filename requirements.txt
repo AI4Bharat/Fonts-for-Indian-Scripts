@@ -1,0 +1,7 @@
+torch==1.6.0+cpu
+opencv_python==4.4.0.44
+numpy==1.19.2
+streamlit==0.67.1
+matplotlib==3.3.2
+torchvision==0.7.0+cpu
+Pillow==8.0.1
