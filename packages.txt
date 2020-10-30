@@ -1,0 +1,6 @@
+libfreetype6-dev
+libharfbuzz-dev
+libfribidi-dev
+gtk-doc-tools
+libraqm-dev
+fonts-indic
