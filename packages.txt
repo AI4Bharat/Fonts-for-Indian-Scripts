@@ -1,7 +1,5 @@
 update
-'ffmpeg'\
-'libsm6'\ 
-'libxext6'  -y
+libgl1-mesa-glx
 libfreetype6-dev
 libharfbuzz-dev
 libfribidi-dev
