@@ -1,3 +1,7 @@
+update
+'ffmpeg'\
+'libsm6'\ 
+'libxext6'  -y
 libfreetype6-dev
 libharfbuzz-dev
 libfribidi-dev
